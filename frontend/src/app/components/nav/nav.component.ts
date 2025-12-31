@@ -6,7 +6,7 @@ import { AuthService } from '../../services/auth.service';
   selector: 'app-nav',
   template: `
     <nav class="navbar">
-      <div class="brand">📊 Admin Dashboard</div>
+      <div class="brand">Admin Dashboard</div>
       <div class="nav-links">
         <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
         <a routerLink="/users" routerLinkActive="active">Users</a>

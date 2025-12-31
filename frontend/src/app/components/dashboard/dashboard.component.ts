@@ -13,28 +13,28 @@ Chart.register(...registerables);
       
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-icon blue">👥</div>
+          <div class="stat-icon blue">U</div>
           <div class="stat-info">
             <span class="stat-value">{{ stats.totalUsers }}</span>
             <span class="stat-label">Total Users</span>
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-icon green">✓</div>
+          <div class="stat-icon green">A</div>
           <div class="stat-info">
             <span class="stat-value">{{ stats.activeUsers }}</span>
             <span class="stat-label">Active Users</span>
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-icon purple">🔐</div>
+          <div class="stat-icon purple">S</div>
           <div class="stat-info">
             <span class="stat-value">{{ stats.adminCount }}</span>
             <span class="stat-label">Admins</span>
           </div>
         </div>
         <div class="stat-card">
-          <div class="stat-icon orange">📈</div>
+          <div class="stat-icon orange">+</div>
           <div class="stat-info">
             <span class="stat-value">{{ stats.newSignups }}</span>
             <span class="stat-label">New This Week</span>
